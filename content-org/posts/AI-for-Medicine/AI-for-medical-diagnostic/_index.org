@@ -1,0 +1,5 @@
+#+HUGO_BASE_DIR: ../../../../
+#+HUGO_SECTION: posts/AI-for-Medicine/AI-for-Medical-Diagnosis
+#+TITLE: AI-for-Medical-Diagnosis
+#+HUGO_FRONT_MATTER_FORMAT: yaml
+#+HUGO_MENU: :menu sidebar :name AI-for-Medical-Diagnosis :identifier ai-for-medical-diagnosis :weight 20  :parent ai-for-medicine

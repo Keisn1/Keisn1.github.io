@@ -1,0 +1,5 @@
+#+HUGO_BASE_DIR: ../../../
+#+HUGO_SECTION: posts/Git
+#+TITLE: Git
+#+HUGO_FRONT_MATTER_FORMAT: yaml
+#+HUGO_MENU: :menu sidebar :name Git :identifier git :weight 20

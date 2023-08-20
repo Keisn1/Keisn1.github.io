@@ -1,7 +1,7 @@
 baseURL: https://Keisn1.github.io
 
 languageCode: en-us
-title: "John's Blog"
+title: "Kay's Blog"
 
 # Use Hugo modules to add theme
 module:
@@ -23,6 +23,7 @@ languages:
   en:
     languageName: English
     weight: 1
+    staticDir: static
   bn:
     languageName: বাংলা
     weight: 3
@@ -54,14 +55,14 @@ enableEmoji: true
 # Site parameters
 params:
   # Background image of the landing page
-  background: /images/site/background.jpg
+  background: /images/site/magdeburger-boerde.jpg
 
   # Provide logos for your site. The inverted logo will be used in the initial
   # transparent navbar and the main logo will be used in the non-transparent navbar.
   logo:
-    main: /images/site/main-logo.png
-    inverted: /images/site/inverted-logo.png
-    favicon: /images/site/favicon.png
+    main: /images/site/kay_original.png
+    inverted: /images/site/kay_original.png
+    favicon: /images/site/kay_original.png
 
   # GitHub repo of your site
   gitRepo: https://github.com/Keisn1/Keisn1.github.io
@@ -97,16 +98,16 @@ params:
       enable: true
       # Share post on different social media
       shareButtons:
-        facebook: true
-        twitter: true
+        facebook: false
+        twitter: false
         linkedin: true
-        reddit: true
-        whatsapp: true
+        reddit: false
+        whatsapp: false
         email: true
+        mastodon: true
         # tumblr: true
         # pocket: true
         # diaspora: true
-        # mastodon: true
 
     # Enable & configure "Notes" features
     notes:
